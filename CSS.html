@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> CSS </title>
+	<link rel="stylesheet" type="text/css" href="indexcss.css">
+
+</head>
+<body id="bodyHTML">
+
+<div class="navbar">
+
+<!-- this is the navbar and its contant-->
+
+<ul>
+
+  <li><a href="index.html">HTML</a></li>
+  <li><a class="active" href="css.html">CSS</a></li>
+  <li><a href="JavaScript.html">JavaScript</a></li>
+  <li><a href="php.html">PHP</a></li>
+  <li><a href="contactus.html">Contact Us</a></li>
+ 
+ <!-- the dropdown contant -->
+
+<li class="dropdown">
+    <a href="javascript:void(0)">About us</a>
+    <div class="dropdown-content">
+      <a href="samer/cv.html">Samer Nasser</a>
+      <a href="faris/MyCV.html">Faris Al gholamy</a>
+      <a href="faisal/cv.html">Faisal Abu Shaar </a>
+
+    </div>
+  </li>
+</ul>
+
+</div>
+
+<!--  -->
+
+	<div class="banner" id="bannerCSS">
+
+</div>
+
+
+<div id="jstitle">
+	
+<h3>CSS ScreenShots</h3>
+
+</div>
+
+
+
+
+
+<img class="csspic" src="jpg/csspic1.jpg">
+<img class="csspic" src="jpg/csspic.jpg">
+
+
+
+	<!-- <img src="jpg/csspic1.jpg" alt="Table CSS">
+	<img  src="jpg/csspic.jpg" alt="Table CSS"> -->
+
+
+	
+<div id="csstitle">
+	
+<h3>CSS Code</h3>
+
+</div>
+
+<div class="code">
+
+<code><pre>
+	
+
+
+
+#bodyHTML{
+  background-color:#B2BABB;
+}
+/* Web Banners */
+
+#bannerHTML {
+    background-image: url(banner.jpg);
+}
+
+#bannerCSS{
+  background-image: url(banner1.jpg);
+}
+
+.banner {
+    top:0;
+    width: 100%;
+    height: 450px;
+    background-image: url(banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    bor
+}
+
+
+/*Navbar contant design*/
+
+
+.navbar{
+  position: fixed;
+  width: 100%;
+  top:0;
+  opacity: 0.9;
+}
+
+/*Navbar contant */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #979A9A;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 30px;
+  font-size: 18px;
+  text-decoration: none;
+
+}
+
+
+
+
+
+ul li ul li{
+  display:none;
+}
+
+/*the hover design*/
+
+ li a:hover {
+  background-color: #212F3C;
+  color: white;
+  }
+
+
+ul li:hover ul li{
+  display:block;
+
+}
+
+/*Border of the navbar*/
+
+li {
+  border-right: 1px solid white;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+/* the dropdown */
+
+li.dropdown {
+  display: inline-block;
+  float: right;
+  background-color: #626567;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #D0D3D4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #212F3C;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*how the "About" is on the right alone */
+#about{
+  float: right;
+}
+/**
+iframe 
+{
+
+  display: inline-block;
+  width: 100%;
+  height: 90%;
+  }
+  .frame{
+    width: 100%;
+    height: 600px;
+  }
+**/
+
+  /** Table CSS**/
+
+  .demo {
+    border:0px none #A96666;
+    border-collapse:separate;
+    padding:12px;
+  
+  }
+  .demo th {
+    border:0px none #A96666;
+    padding:12px;
+    background:#979A9A;
+  }
+  .demo td {
+    border:0px none #A96666;
+    padding:12px;
+    background:#F7F7F7;
+  }
+
+/*Title design*/
+
+
+  #tabletitle{
+ display: center;
+  text-align: center;
+  font-size: 30px;
+ background-color: #B3B6B7;
+
+
+
+  }
+#csstitle{
+  text-align: center;
+  padding-top: 10px;
+  display: center;
+  font-size: 30px;
+
+}
+
+
+/*css pics*/
+  .csspic{
+width: 90%;
+height: 50%;
+text-align: center;
+margin:20px;
+padding: 20px;
+ 
+ 
+}
+
+
+
+
+</pre></code></div>
+
+
+<footer style="background-color: #EE866F;  ">
+  <p style="text-align: center;"><strong>Author: Samer Nasser </strong></p>
+  <p style="text-align: center "><a href="Samerjnaz@gmail.com">Samerjnaz@gmail.com | Mobile Number: 050655823 </a></p>
+
+
+
+  <h4 style="color:#EE866F "><strong>Social Media</strong>  </h4>
+
+<a href="https://www.facebook.com/samer.nasser.10"><img style="width: 50px; height: 50px" src="jpg/facebook.jpg"></a>
+
+<a href=https://www.instagram.com/samerjnaz/?hl=en><img style="width: 50px; height: 50px" src="jpg/insta.jpg"></a>
+
+<a href=https://twitter.com/SamJnaz><img style="width: 50px; height: 50px" src="https://lh3.googleusercontent.com/wIf3HtczQDjHzHuu7vezhqNs0zXAG85F7VmP7nhsTxO3OHegrVXlqIh_DWBYi86FTIGk"></a>
+</footer>
+
+
+</body>
+</html>
